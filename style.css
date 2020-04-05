@@ -1,0 +1,164 @@
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin:0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.instafacebook {
+  height: 50px;
+}
+div #scroll {
+  height:1000px;
+  background-color:grey;
+  font-size:36px
+}
+h2{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 0.5%;
+}
+h3{
+  font-size: 50px;
+  margin-top: 2%;
+  margin-bottom: 0.5%;
+  margin-left: 0.5%;
+}
+form input{
+  width: 500px;
+  height: 40px;
+margin: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+form textarea{
+  width: 500px;
+  height: 120px;
+  margin: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+form button {
+  color: white;
+}
+form button:hover{
+  color: grey;
+}
+div.flexbox1{
+  display: flex;
+  justify-content: center;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: grey;
+  text-decoration: underline;
+}
+.container {
+  position: relative;
+  width: 200px;
+  text-align: center;
+  margin-right: 0;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #7E7E7E;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  padding: 0%;
+  margin: 0%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+}
+
+#about-content {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#about-hr{
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 0%;
+  margin-bottom: 1.5%;
+}
+.parallax {
+  background-image: url("../img/img_parallax.jpg");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.navbar {
+
+ background-color: #333;
+ position: fixed;
+ top: 0;
+ width: 200%;
+}
+
+.navbar a {
+ float: left;
+ display: block;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.navbar a:hover {
+ background: #ddd;
+ color: black;
+}
+
+.main {
+ margin-top: 30px;
+}
+ul{
+  margin-top: 0%;
+  list-style-type: none;
+}
